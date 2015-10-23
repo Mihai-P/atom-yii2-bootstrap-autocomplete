@@ -1,0 +1,57 @@
+'.text.html':
+  'Yii2 ActiveForm':
+    'prefix': 'yaf'
+    'body': """
+    <?php $form = ActiveForm::begin(); ?>
+        $1
+    <div class="form-group">
+        <?= Html::submitButton(\'${2:Save}\', [\'class\' => \'btn btn-${3:primary}\']) ?>
+    </div>
+    <?php ActiveForm::end(); ?>
+  """
+
+  'Yii2 Input':
+    'prefix': 'yaf-input'
+    'body': """
+    <?= $form->field($model, \'${1:attribute}\')->textInput(${2:[\'${3:maxlength}\' => ${4:20}]}) ?>
+    """
+
+  'Yii2 Select From Model':
+    'prefix': 'yaf-select-model'
+    'body': """
+    <?= $form->field($model, \'${1:attribute}\')->dropDownList(ArrayHelper::map(${2:model}::find()->asArray()->all(), \'${3:sufix}_ID\', \'${3:sufix}_NAME\'), ['prompt' => '']) ?>
+    """
+
+  'Yii2 Select From List':
+    'prefix': 'yaf-select-list'
+    'body': """
+    <?= $form->field($model, \'${1:attribute}\')->dropDownList(
+        [
+            '${2:key}' => '${3:value}',
+            '${4:key}' => '${5:value}',
+        ], ['prompt' => '']) ?>
+    """
+
+  'Yii2 Textarea':
+    'prefix': 'yaf-textarea'
+    'body': """
+    <?= $form->field($model, \'${1:attribute}\')->textarea() ?>
+    """
+
+  'Yii2 Checkbox':
+    'prefix': 'yaf-textarea'
+    'body': """
+    <?= $form->field($model, \'${1:attribute}\')->textarea() ?>
+    """
+
+  'Yii2 Widget':
+    'prefix': 'yaf-widget'
+    'body': """
+    <?= $form->field($model, \'${1:attribute}\')->widget(${2:WidgetClass}::className(), [
+            \'${3:option}\' => \'${4:value}\',
+        ]) ?>
+    """
+
+  'Yii2 Widget':
+    'prefix': 'yaf-hidden'
+    'body': '<?= Html::activeHiddenInput(${1:$model}, \'${2:attribute}\'${3:, [\'${4:optionName}\' => ${4:optionValue}]}); ?>'

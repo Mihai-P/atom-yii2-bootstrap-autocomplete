@@ -1,0 +1,15 @@
+'.text.html':
+  'Yii2 Modal':
+    'prefix': 'ymodal'
+    'body': """
+    <?php Modal::begin([
+        \'id\' => \'${1:Heading}\',
+        \'header\' => \'${2:Heading}\'
+    ]);?>
+        $3
+    <?php Modal::end();?>
+    """
+
+  'Yii2 Modal Button':
+    'prefix': 'ymodal-button'
+    'body': '<?= Html::button(\'${1:label}\'${2:, [\'data-toggle\' => \'modal\', \'data-target\' => \'#${3:modalId}\', \'class\' => \'btn btn-${4:modalId}\', ]}); ?>'

@@ -1,0 +1,52 @@
+{
+  "name": "yii2-autocomplete-extra",
+  "main": "./lib/main",
+  "version": "0.3.1",
+  "description": "Atom package for work with Yii Framework 2",
+  "keywords": [
+    "atom",
+    "yii2",
+    "Yii Framework 2"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igogo5yo/yii2-autocomplete-extra.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "dependencies": {},
+  "readme": "# yii2-autocomplete-extra package\n[![apm](https://img.shields.io/apm/v/yii2-autocomplete-extra.svg)]()\n[![apm](https://img.shields.io/apm/dm/yii2-autocomplete-extra.svg)]()\n[![apm](https://img.shields.io/apm/l/yii2-autocomplete-extra.svg)]()\n\n\nAtom package for work with Yii Framework 2\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/igogo5yo/yii2-autocomplete-extra/issues"
+  },
+  "homepage": "https://github.com/igogo5yo/yii2-autocomplete-extra#readme",
+  "_id": "yii2-autocomplete-extra@0.3.1",
+  "_shasum": "e965cbc2a02a6639f3f260b7334dff40a1504659",
+  "_resolved": "file:..\\d-115920-3652-yv3vp3\\package.tgz",
+  "_from": "..\\d-115920-3652-yv3vp3\\package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "completions.json",
+        "package.json"
+      ],
+      ".coffee": [
+        "lib\\main.coffee",
+        "lib\\provider.coffee"
+      ]
+    },
+    "folders": []
+  }
+}
