@@ -1,7 +1,7 @@
 {
-  "name": "yii2-autocomplete-extra",
+  "name": "atom-yii2-bootstrap-autocomplete",
   "main": "./lib/main",
-  "version": "0.3.1",
+  "version": "0.0.1",
   "description": "Atom package for work with Yii Framework 2",
   "keywords": [
     "atom",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/igogo5yo/yii2-autocomplete-extra.git"
+    "url": "git+https://github.com/Mihai-P/atom-yii2-bootstrap-autocomplete.git"
   },
   "license": "MIT",
   "engines": {
@@ -24,16 +24,13 @@
     }
   },
   "dependencies": {},
-  "readme": "# yii2-autocomplete-extra package\n[![apm](https://img.shields.io/apm/v/yii2-autocomplete-extra.svg)]()\n[![apm](https://img.shields.io/apm/dm/yii2-autocomplete-extra.svg)]()\n[![apm](https://img.shields.io/apm/l/yii2-autocomplete-extra.svg)]()\n\n\nAtom package for work with Yii Framework 2\n",
+  "readme": "# yii2-autocomplete-extra package\n[![apm](https://en.gravatar.com/userimage/80460093/e5bd6dd558ab7c678e7fa8686a26befe.jpg?size=200)]()\n[![apm](https://en.gravatar.com/userimage/80460093/e5bd6dd558ab7c678e7fa8686a26befe.jpg?size=200)]()\n[![apm](https://en.gravatar.com/userimage/80460093/e5bd6dd558ab7c678e7fa8686a26befe.jpg?size=200)]()\n\n\nAtom package for work with Yii Framework 2\n",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/igogo5yo/yii2-autocomplete-extra/issues"
+    "url": "https://github.com/Mihai-P/atom-yii2-bootstrap-autocomplete/issues"
   },
-  "homepage": "https://github.com/igogo5yo/yii2-autocomplete-extra#readme",
-  "_id": "yii2-autocomplete-extra@0.3.1",
-  "_shasum": "e965cbc2a02a6639f3f260b7334dff40a1504659",
-  "_resolved": "file:..\\d-115920-3652-yv3vp3\\package.tgz",
-  "_from": "..\\d-115920-3652-yv3vp3\\package.tgz",
+  "homepage": "https://github.com/Mihai-P/atom-yii2-bootstrap-autocomplete/blob/master/README.md",
+  "_id": "atom-yii2-bootstrap-autocomplete@0.0.1",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [],
